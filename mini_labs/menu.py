@@ -10,7 +10,8 @@ def print_menu1():
     print('2 -- Numby' )
     print('3 -- Listy' )
     print('4 -- Swap')
-    print('5 -- Exit' )
+    print('5 -- Matrices')
+    print('6 -- Exit' )
     runOptions()
 
 
@@ -20,7 +21,8 @@ menu_options = {
     2: 'Numby',
     3: 'Listy',
     4: 'Swap',
-    5: 'Exit'
+    5: 'Matrices',
+    6: 'Exit'
 }
 
 # Print menu options from dictionary key/value pair
@@ -54,6 +56,8 @@ def swap2(a,b):
     b = temp
     return a, b
 
+def matrice():
+  
 
 # call functions based on input choice
 def runOptions():
@@ -70,7 +74,9 @@ def runOptions():
             elif option == 4:
                 swap()
             # Exit menu    
-            elif option == 5:  
+            elif option == 5:
+                matrice()
+            elif option == 6:  
                 print('Exiting! Thank you! Good Bye...')
                 exit() # exit out of the (infinite) while loop
             else:
