@@ -2,7 +2,7 @@
 Introduction to Console Programming
 Writing a function to print a menu
 """
-
+import time
 
 # Menu options in print statement
 def print_menu1():
@@ -11,7 +11,8 @@ def print_menu1():
     print('3 -- Listy')
     print('4 -- Swap')
     print('5 -- Matrices')
-    print('6 -- Exit')
+    print('6 -- Ship')
+    print('7 -- Exit')
     runOptions()
 
 
@@ -22,7 +23,8 @@ menu_options = {
     3: 'Listy',
     4: 'Swap',
     5: 'Matrices',
-    6: 'Exit'
+    6: 'Ship',
+    7: 'Exit'
 }
 
 
@@ -64,20 +66,80 @@ def swap2(a, b):
 
 
 def matrice():
-    matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+    matrix = [[
+        input("input a number "),
+        input("input a number "),
+        input("input a number ")
+    ],
+              [
+                  input("input a number "),
+                  input("input a number "),
+                  input("input a number ")
+              ],
+              [
+                  input("input a number "),
+                  input("input a number "),
+                  input("input a number ")
+              ]]
     newMatrix = []
     matrice2(matrix, newMatrix)
-    print (newMatrix)
     matrice3(newMatrix)
+
 
 def matrice2(matrix, newMatrix):
     for w in range(len(matrix)):
         for y in range(len(matrix[w])):
             newMatrix.append(matrix[w][y])
-    return(newMatrix)
+    return (newMatrix)
+
 
 def matrice3(newMatrix):
-    
+    print(newMatrix[0], newMatrix[1], newMatrix[2])
+    print(newMatrix[3], newMatrix[4], newMatrix[5])
+    print(newMatrix[6], newMatrix[7], newMatrix[8])
+
+
+# terminal print commands
+ANSI_CLEAR_SCREEN = u"\u001B[2J"
+ANSI_HOME_CURSOR = u"\u001B[0;0H\u001B[2"
+OCEAN_COLOR = u"\u001B[44m\u001B[2D"
+SHIP_COLOR = u"\u001B[32m\u001B[2D"
+RESET_COLOR = u"\u001B[0m\u001B[2D"
+
+
+def ocean_print():
+    # print ocean
+    print(ANSI_CLEAR_SCREEN, ANSI_HOME_CURSOR)
+    print("\n\n\n\n")
+    print(OCEAN_COLOR + "  " * 35)
+
+
+# print ship with colors and leading spaces
+def ship_print(position):
+    print(ANSI_HOME_CURSOR)
+    print(RESET_COLOR)
+    sp = " " * position
+    print(sp + "    (\_/)   ")
+    print(sp + "    (o.o)   ")
+    print(sp + "    (___)0   ")
+    print(SHIP_COLOR, end="")
+    print(RESET_COLOR)
+
+
+# ship function, iterface into this file
+def ship():
+    # only need to print ocean once
+    ocean_print()
+
+    # loop control variables
+    start = 0  # start at zero
+    distance = 60  # how many times to repeat
+    step = 2  # count by 2
+
+    # loop purpose is to animate ship sailing
+    for position in range(start, distance, step):
+        ship_print(position)  # call to function with parameter
+        time.sleep(.1)
 
 
 # call functions based on input choice
@@ -85,7 +147,7 @@ def runOptions():
     # infinite loop to accept/process user menu choice
     while True:
         try:
-            option = int(input('Enter your choice 1-4: '))
+            option = int(input('Enter your choice 1-6: '))
             if option == 1:
                 stringy()
             elif option == 2:
@@ -98,6 +160,8 @@ def runOptions():
             elif option == 5:
                 matrice()
             elif option == 6:
+                ship()
+            elif option == 7:
                 print('Exiting! Thank you! Good Bye...')
                 exit()  # exit out of the (infinite) while loop
             else:
