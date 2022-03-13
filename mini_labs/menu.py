@@ -3,7 +3,7 @@ Introduction to Console Programming
 Writing a function to print a menu
 """
 import time
-
+import random
 
 # Menu options in print statement
 def print_menu1():
@@ -150,30 +150,36 @@ def ship():
 Blue = "\033[94m"
 Pink = "\033[91m"
 BrightPink = "\033[95m"
+Blue2 = '\033[96m'
+Red = "\33[31m"
+Yellow = "\33[33m"
+Purple = "\33[35m"
+Color = [Blue, Pink, BrightPink, Blue2, Red, Purple]
+
 
 
 def christmasTree():
-    print("\033[93m           * \033[92m")
+    print("\33[33m           * \033[92m")
     time.sleep(.5)
     print("\033[92m          * *")
     time.sleep(.5)
-    print("         * \033[94m*\033[92m *")
+    print("         * " + random.choice(Color) + "*\033[92m *")
     time.sleep(.5)
-    print("        * * \033[95m*\033[92m *")
+    print("        " + random.choice(Color) + "*\033[92m * " + random.choice(Color) + "*\033[92m *")
     time.sleep(.5)
-    print("       * \033[94m*\033[92m * * *")
+    print("       * " + random.choice(Color) + "*\033[92m * * " + random.choice(Color) + "*\033[92m")
     time.sleep(.5)
-    print("      * * * * \033[95m*\033[92m *")
+    print("      * " + random.choice(Color) + "*\033[92m * * " + random.choice(Color) + "*\033[92m *")
     time.sleep(.5)
-    print("     * * \033[94m*\033[92m * * * *")
+    print("     * * " + random.choice(Color) + "*\033[92m * * * " + random.choice(Color) + "*\033[92m")
     time.sleep(.5)
-    print("    * \033[94m*\033[92m * * * \033[95m*\033[92m * *")
+    print("    * " + random.choice(Color) + "*\033[92m * * * " + random.choice(Color) + "*\033[92m * " + random.choice(Color) + "*\033[92m")
     time.sleep(.5)
-    print("   * * \033[95m*\033[92m * * \033[94m*\033[92m * * *")
+    print("   * * " + random.choice(Color) + "*\033[92m * * " + random.choice(Color) + "*\033[92m * * " + random.choice(Color) + "*\033[92m")
     time.sleep(.5)
-    print("  * * * * * \033[94m*\033[92m * * * *")
+    print("  * * " + random.choice(Color) + "*\033[92m * * " + random.choice(Color) + "*\033[92m * * " + random.choice(Color) + "*\033[92m *")
     time.sleep(.5)
-    print(" * * * \033[95m*\033[92m * * * * * * * \033[93m")
+    print(" * " + random.choice(Color) + "*\033[92m * " + random.choice(Color) + "*\033[92m * * * " + random.choice(Color) + "*\033[92m * " + random.choice(Color) + "*\033[92m * \033[93m")
     time.sleep(.5)
     print("         * * *")
     time.sleep(.5)
