@@ -4,6 +4,7 @@ Writing a function to print a menu
 """
 import time
 
+
 # Menu options in print statement
 def print_menu1():
     print('1 -- Stringy')
@@ -53,7 +54,7 @@ def listy():
 def swap():
     x = int(input('input a number '))
     y = int(input('input a number '))
-    x, y = swap2(x, y)
+    swap2(x, y)
     print(x, y)
 
 
@@ -98,8 +99,9 @@ def matrice3(newMatrix):
     print(newMatrix[3], newMatrix[4], newMatrix[5])
     print(newMatrix[6], newMatrix[7], newMatrix[8])
 
+    # terminal print commands
 
-# terminal print commands
+
 ANSI_CLEAR_SCREEN = u"\u001B[2J"
 ANSI_HOME_CURSOR = u"\u001B[0;0H\u001B[2"
 OCEAN_COLOR = u"\u001B[44m\u001B[2D"
@@ -119,9 +121,10 @@ def ship_print(position):
     print(ANSI_HOME_CURSOR)
     print(RESET_COLOR)
     sp = " " * position
-    print(sp + "    (\_/)   ")
-    print(sp + "    (o.o)   ")
-    print(sp + "    (___)0   ")
+    print(sp + "▀██▀─▄███▄─▀██─██▀██▀▀█")
+    print(sp + "─██─███─███─██─██─██▄█")
+    print(sp + "─██─▀██▄██▀─▀█▄█▀─██▀█")
+    print(sp + "▄██▄▄█▀▀▀─────▀──▄██▄▄█")
     print(SHIP_COLOR, end="")
     print(RESET_COLOR)
 
@@ -142,7 +145,44 @@ def ship():
         time.sleep(.1)
 
 
+#prefuncy.py
+
+Blue = "\033[94m"
+Pink = "\033[91m"
+BrightPink = "\033[95m"
+
+
+def christmasTree():
+    print("\033[93m           * \033[92m")
+    time.sleep(.5)
+    print("\033[92m          * *")
+    time.sleep(.5)
+    print("         * \033[94m*\033[92m *")
+    time.sleep(.5)
+    print("        * * \033[95m*\033[92m *")
+    time.sleep(.5)
+    print("       * \033[94m*\033[92m * * *")
+    time.sleep(.5)
+    print("      * * * * \033[95m*\033[92m *")
+    time.sleep(.5)
+    print("     * * \033[94m*\033[92m * * * *")
+    time.sleep(.5)
+    print("    * \033[94m*\033[92m * * * \033[95m*\033[92m * *")
+    time.sleep(.5)
+    print("   * * \033[95m*\033[92m * * \033[94m*\033[92m * * *")
+    time.sleep(.5)
+    print("  * * * * * \033[94m*\033[92m * * * *")
+    time.sleep(.5)
+    print(" * * * \033[95m*\033[92m * * * * * * * \033[93m")
+    time.sleep(.5)
+    print("         * * *")
+    time.sleep(.5)
+    print("         * * * \u001b[37m")
+
+
 # call functions based on input choice
+
+
 def runOptions():
     # infinite loop to accept/process user menu choice
     while True:
