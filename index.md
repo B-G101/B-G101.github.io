@@ -3,6 +3,19 @@
 ## Bria's GitHub Page :)
 
 ### Review Tickets 📇
+
+<table>
+  <tr>
+  <th>Week Number</th>
+  <th>Link to the Review Ticket</th>
+  </tr>
+  <tr>
+  <td>Week 0: Plans, Team, Jobs</td>
+  <td> <a href="https://github.com/christinlee367/womenInSTEMandDavid/issues/5">Review Ticket 1</a></td>
+  </tr>
+  </table>
+  
+  
 | Week Number     | Link to Review Ticket |
 | -------------------------------------------------------- | ----------------------------------------------------- |
 | Week 0: Plans, Team, Jobs      | [Review Ticket 1](https://github.com/christinlee367/womenInSTEMandDavid/issues/5)       |
