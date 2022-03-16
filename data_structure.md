@@ -3,6 +3,6 @@
 
 
 <div class="row justify-content-center" style="margin: 2%;">
-    <iframe height= "auto" width="1000px" src="https://replit.com/@BG101/B-G101githubio-1?lite=true#main.py"></iframe>
+    <iframe height= "auto" width="500px" src="https://replit.com/@BG101/B-G101githubio-1?lite=true#main.py"></iframe>
 </div>
 
