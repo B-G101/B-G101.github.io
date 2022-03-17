@@ -11,7 +11,7 @@
 
 
 Menu and Patterns Submenu
-```
+```python 
 main_menu = [
     ["Animation", menu.ship],
     ["Christmas Tree", menu.christmasTree],
@@ -118,7 +118,7 @@ if __name__ == "__main__":
 ```
 
 Matrix Print
-```
+```python
 def matrice():
     matrix = [[
         input("input a number "),
@@ -154,7 +154,7 @@ def matrice3(newMatrix):
 ```
 
 Animation
-```
+```python
 ANSI_CLEAR_SCREEN = u"\u001B[2J"
 ANSI_HOME_CURSOR = u"\u001B[0;0H\u001B[2"
 OCEAN_COLOR = u"\u001B[44m\u001B[2D"
@@ -199,7 +199,7 @@ def ship():
 ```
 
 Swap Function
-```
+```python
 def swap():
     x = int(input('input a number '))
     y = int(input('input a number '))
@@ -216,7 +216,7 @@ def swap2(a, b):
 ```
 
 Hard coded Christmas Tree Animation
-```
+```python
 Blue = "\033[94m"
 Pink = "\033[91m"
 BrightPink = "\033[95m"
