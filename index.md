@@ -14,5 +14,3 @@
   <td> <a href="https://github.com/christinlee367/womenInSTEMandDavid/issues/5">Review Ticket 1</a></td>
   </tr>
   </table>
-
-### [Official Replit Link 🌨️](https://replit.com/@BG101/B-G101githubio-1?v=1)
