@@ -4,11 +4,11 @@
 ## Idea: Map Geo guesser game
 My idea is to create a map guessing game to help the new students at Del Norte learn the map and where there classes are located. This will work for the create task because it will use lists to store the map images and an input and output. The algorithm will be checking if the answer is correct or incorrect. <br>
 ## Table of Contents
-1. [Written Responses](https://github.com/B-G101/B-G101.github.io/edit/main/create_task.md#written-responses)
-1. [Code Segments](https://github.com/nadirahaddach/4Gs/wiki/Bria%27s-Create-Task/_edit#code-segments)
-1. [Video Runtime](https://github.com/nadirahaddach/4Gs/wiki/Bria%27s-Create-Task/_edit#video-runtime)
+1. [Written Responses](https://b-g101.github.io/create_task#written-responses)
+1. [Code Segments](https://b-g101.github.io/create_task#code-segments)
+1. [Video Runtime](https://b-g101.github.io/create_task##video-runtime)
 1. [Link to the Full Code](https://github.com/nadirahaddach/4Gs/blob/main/templates/maptest.html) 
-1. [Initial Brainstorming](https://github.com/nadirahaddach/4Gs/wiki/Bria%27s-Create-Task/_edit#initial-brainstorming) <br><br>
+1. [Initial Brainstorming](https://b-g101.github.io/create_task##initial-brainstorming) <br><br>
 
 ### Written Responses
 ![](https://i.postimg.cc/XYs1Mj3m/Screenshot-2022-02-27-154202.png)
