@@ -1,4 +1,7 @@
 {% include navigation.html %}
+## Table of Contents
+1. [Week 0](#week-0-tpt-51-52-and-tt0-)<br><br>
+
 ### Week 0: TPT 5.1-5.2 and TT0 🤙
 ***
 #### 5.1 Beneficial and Harmful Effects of Computing
