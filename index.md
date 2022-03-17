@@ -2,6 +2,9 @@
 
 ## Bria's GitHub Page :)
 
+[Link to Individual Repo](https://github.com/B-G101/B-G101.github.io)
+[Link to Group Repo](https://github.com/christinlee367/womenInSTEMandDavid)
+
 ### Review Tickets 📇
 
 <table>
