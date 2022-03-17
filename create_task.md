@@ -6,9 +6,9 @@ My idea is to create a map guessing game to help the new students at Del Norte l
 ## Table of Contents
 1. [Written Responses](https://b-g101.github.io/create_task#written-responses)
 1. [Code Segments](https://b-g101.github.io/create_task#code-segments)
-1. [Video Runtime](https://b-g101.github.io/create_task##video-runtime)
+1. [Video Runtime](https://b-g101.github.io/create_task#video-runtime)
 1. [Link to the Full Code](https://github.com/nadirahaddach/4Gs/blob/main/templates/maptest.html) 
-1. [Initial Brainstorming](https://b-g101.github.io/create_task##initial-brainstorming) <br><br>
+1. [Initial Brainstorming](https://b-g101.github.io/create_task#initial-brainstorming) <br><br>
 
 ### Written Responses
 ![](https://i.postimg.cc/XYs1Mj3m/Screenshot-2022-02-27-154202.png)
