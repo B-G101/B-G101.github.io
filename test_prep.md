@@ -2,7 +2,7 @@
 ## Table of Contents
 1. [Week 0](#week-0-tpt-51-52-and-tt0-)
 2. [Week 1](#week-1-tpt-53-54-and-tt1-)<br><br>
-### Week 1: TPT 5.3-5.4 and TT1 :basecampy:
+### Week 1: TPT 5.3-5.4 and TT1 😧
 ***
 #### 5.3 Computing Bias
 Come up with some thoughts on the video and be ready to discuss them as I call on you. Here are some ideas...
