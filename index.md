@@ -17,3 +17,6 @@
   <td> <a href="https://github.com/christinlee367/womenInSTEMandDavid/issues/5">Review Ticket 1</a></td>
   </tr>
   </table>
+  
+  ### About Me 😴
+  My name is Bria and I am a junior in CSP! Some projects that I've worked on this year include a website about music, a new student service website, and more recently website for Del Norte's lacrosse team. My scrum group's idea for this trimester is making an website to store all the information about lacrosse team. 
