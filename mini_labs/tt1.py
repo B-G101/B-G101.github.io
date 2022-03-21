@@ -8,7 +8,7 @@ InfoDb.append({
     "DOB": "September 27",
     "Residence": "Los Angelus",
     "Email": "briagee101@gmail.com",
-    "FavoriteColors": ["Blue", "Sage Green", "Lilac"]
+    "FavoriteColors": ["Blue", "Sage Green", "Lilac" , "Amber" , "Bronze"]
 })
 
 
@@ -18,7 +18,7 @@ InfoDb.append({
     "DOB": "July 27",
     "Residence": "Irvine",
     "Email": "allisonhuang@gmail.com",
-    "FavoriteColors": ["Blue", "Green", "Hot Pink"]
+    "FavoriteColors": ["Blue", "Green", "Hot Pink", "Blurple", "Lavender"]
 })
 
 
@@ -28,7 +28,7 @@ InfoDb.append({
     "DOB": "April 30",
     "Residence": "San Diego",
     "Email": "paigey@gmail.com",
-    "FavoriteColors": ["Purple", "Red", "White"]
+    "FavoriteColors": ["Purple", "Red", "White", "Yellow", "Torquise"]
 })
 
 

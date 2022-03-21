@@ -32,7 +32,7 @@ patterns_sub_menu = [
 loops_sub_menu = [
     ["For Loop", tt1.for_loop],
     ["While Loop", tt1.while_loopt],
-    ["Recursive Loop", str(tt1.recursive_loop(0))],
+    ["Recursive Loop", tt1.recursive_loopt],
     ["All Loops", tt1.tester],
 ]
 
