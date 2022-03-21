@@ -124,9 +124,11 @@ def tester():
 
 
 def recursive_fibonacci(n):
+  # if the value is equal to or less than 1 the fibonacci sequence will automatically be 1
     if n <= 1:
         return n
     else:
+  # adds the initial value to the total from before     
         return (recursive_fibonacci(n - 1) + recursive_fibonacci(n - 2))
 
 
@@ -136,7 +138,8 @@ def fibonacci():
         if nterms <= 0:
             print("Plese enter a positive integer")
         else:
-            print("Your saucy sequence:")
+            print("Fibonacci Sequence: ")
+          # looping through the function for nterms amount of times
             for i in range(nterms):
                 print(recursive_fibonacci(i))
     except ValueError:
