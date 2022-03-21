@@ -6,7 +6,7 @@ InfoDb.append({
     "FirstName": "Bria",
     "LastName": "Gilliam",
     "DOB": "September 27",
-    "Residence": "Los Angelus",
+    "Birth Place": "Los Angeles",
     "Email": "briagee101@gmail.com",
     "FavoriteColors": ["Blue", "Sage Green", "Lilac" , "Amber" , "Bronze"]
 })
@@ -16,7 +16,7 @@ InfoDb.append({
     "FirstName": "Allison",
     "LastName": "Huang",
     "DOB": "July 27",
-    "Residence": "Irvine",
+    "Birth Place": "Irvine",
     "Email": "allisonhuang@gmail.com",
     "FavoriteColors": ["Blue", "Green", "Hot Pink", "Blurple", "Lavender"]
 })
@@ -26,9 +26,18 @@ InfoDb.append({
     "FirstName": "Paige",
     "LastName": "McCartin",
     "DOB": "April 30",
-    "Residence": "San Diego",
+    "Birth Place": "San Diego",
     "Email": "paigey@gmail.com",
     "FavoriteColors": ["Purple", "Red", "White", "Yellow", "Torquise"]
+})
+
+InfoDb.append({
+    "FirstName": "Karis",
+    "LastName": "Gilliam",
+    "DOB": "June 1",
+    "Birth Place": "Los Angeles",
+    "Email": "kg202@gmail.com",
+    "FavoriteColors": ["Brown", "Black", "White", "Cyan", "Magenta"]
 })
 
 
