@@ -5,6 +5,7 @@ Writing a function to print a menu
 import time
 import random
 
+
 # Menu options in print statement
 def print_menu1():
     print('1 -- Stringy')
@@ -157,7 +158,6 @@ Purple = "\33[35m"
 Color = [Blue, Pink, BrightPink, Blue2, Red, Purple]
 
 
-
 def christmasTree():
     print("\33[33m           * \033[92m")
     time.sleep(.5)
@@ -165,21 +165,33 @@ def christmasTree():
     time.sleep(.5)
     print("         * " + random.choice(Color) + "*\033[92m *")
     time.sleep(.5)
-    print("        " + random.choice(Color) + "*\033[92m * " + random.choice(Color) + "*\033[92m *")
+    print("        " + random.choice(Color) + "*\033[92m * " +
+          random.choice(Color) + "*\033[92m *")
     time.sleep(.5)
-    print("       * " + random.choice(Color) + "*\033[92m * * " + random.choice(Color) + "*\033[92m")
+    print("       * " + random.choice(Color) + "*\033[92m * * " +
+          random.choice(Color) + "*\033[92m")
     time.sleep(.5)
-    print("      * " + random.choice(Color) + "*\033[92m * * " + random.choice(Color) + "*\033[92m *")
+    print("      * " + random.choice(Color) + "*\033[92m * * " +
+          random.choice(Color) + "*\033[92m *")
     time.sleep(.5)
-    print("     * * " + random.choice(Color) + "*\033[92m * * * " + random.choice(Color) + "*\033[92m")
+    print("     * * " + random.choice(Color) + "*\033[92m * * * " +
+          random.choice(Color) + "*\033[92m")
     time.sleep(.5)
-    print("    * " + random.choice(Color) + "*\033[92m * * * " + random.choice(Color) + "*\033[92m * " + random.choice(Color) + "*\033[92m")
+    print("    * " + random.choice(Color) + "*\033[92m * * * " +
+          random.choice(Color) + "*\033[92m * " + random.choice(Color) +
+          "*\033[92m")
     time.sleep(.5)
-    print("   * * " + random.choice(Color) + "*\033[92m * * " + random.choice(Color) + "*\033[92m * * " + random.choice(Color) + "*\033[92m")
+    print("   * * " + random.choice(Color) + "*\033[92m * * " +
+          random.choice(Color) + "*\033[92m * * " + random.choice(Color) +
+          "*\033[92m")
     time.sleep(.5)
-    print("  * * " + random.choice(Color) + "*\033[92m * * " + random.choice(Color) + "*\033[92m * * " + random.choice(Color) + "*\033[92m *")
+    print("  * * " + random.choice(Color) + "*\033[92m * * " +
+          random.choice(Color) + "*\033[92m * * " + random.choice(Color) +
+          "*\033[92m *")
     time.sleep(.5)
-    print(" * " + random.choice(Color) + "*\033[92m * " + random.choice(Color) + "*\033[92m * * * " + random.choice(Color) + "*\033[92m * " + random.choice(Color) + "*\033[92m * \033[93m")
+    print(" * " + random.choice(Color) + "*\033[92m * " +
+          random.choice(Color) + "*\033[92m * * * " + random.choice(Color) +
+          "*\033[92m * " + random.choice(Color) + "*\033[92m * \033[93m")
     time.sleep(.5)
     print("         * * *")
     time.sleep(.5)
@@ -214,6 +226,9 @@ def runOptions():
                 print('Invalid option. Please enter a number between 1 and 4.')
         except ValueError:
             print('Invalid input. Please enter an integer input.')
+
+
+
 
 
 if __name__ == '__main__':

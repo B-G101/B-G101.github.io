@@ -7,7 +7,6 @@ authors = ["BG101 <<>>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 patterns = "^0.3"
-listy = "^1.0.0"
 mathpy = "^0.3.0"
 
 [tool.poetry.dev-dependencies]

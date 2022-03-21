@@ -3,6 +3,8 @@
 # each import enables us to use logic that has been abstracted to other files and folders
 
 import menu
+import tt1
+
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
@@ -11,6 +13,8 @@ import menu
 main_menu = [
     ["Animation", menu.ship],
     ["Christmas Tree", menu.christmasTree],
+    ["Factorial", tt1.for_loop],
+    ["Factorial", tt1.while_loop],
 ]
 
 # Submenu list of [Prompt, Action]
@@ -24,6 +28,13 @@ patterns_sub_menu = [
     ["Patterns", None],
     ["PreFuncy", None],
     ["Funcy", None],
+]
+
+loops_sub_menu = [
+    ["For Loop", tt1.for_loop],
+    ["While Loop", tt1.while_loop],
+    ["Recursive Loop", str(tt1.recursive_loop(0))],
+    ["All Loops", tt1.tester],
 ]
 
 # Menu banner is typically defined by menu owner
@@ -41,15 +52,22 @@ def patterns_submenuc():
     m.menu()
 
 
+def loops_submenuc():
+    title = "Class Submenu" + banner
+    m = questy.Menu(title, loops_sub_menu)
+    m.menu()
+  
 # def menu
 # using main_menu list:
 # 1. main menu and submenu reference are created [Prompts, Actions]
 # 2. menu_list is sent as parameter to menuy.menu function that has logic for menu control
 def menu():
     title = "Function Menu" + banner
+    print(title)
     menu_list = main_menu.copy()
     menu_list.append(["Tri One", submenu])
     menu_list.append(["Patterns", patterns_submenu])
+    menu_list.append(["Loops", loops_submenu])
     buildMenu(title, menu_list)
 
 # def submenu
@@ -61,6 +79,9 @@ def submenu():
 def patterns_submenu():
     title = "Function Submenu" + banner
     buildMenu(title, patterns_sub_menu)
+def loops_submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, loops_sub_menu)  
 
 def buildMenu(banner, options):
     # header for menu
