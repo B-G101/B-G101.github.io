@@ -40,6 +40,15 @@ InfoDb.append({
     "FavoriteColors": ["Brown", "Black", "White", "Cyan", "Magenta"]
 })
 
+InfoDb.append({
+    "FirstName": "Riya",
+    "LastName": "Anand",
+    "DOB": "Feburary 21",
+    "Birth Place": "San Diego",
+    "Email": "riyanand@gmail.com",
+    "FavoriteColors": ["Brown", "Black", "White", "Cyan", "Magenta"]
+})
+
 
 # given an index this will print InfoDb content
 def print_data(n):
