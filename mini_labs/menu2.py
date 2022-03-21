@@ -13,8 +13,7 @@ import tt1
 main_menu = [
     ["Animation", menu.ship],
     ["Christmas Tree", menu.christmasTree],
-    ["Factorial", tt1.for_loop],
-    ["Factorial", tt1.while_loop],
+    ["Fibonacci", tt1.fibonacci],
 ]
 
 # Submenu list of [Prompt, Action]
@@ -32,7 +31,7 @@ patterns_sub_menu = [
 
 loops_sub_menu = [
     ["For Loop", tt1.for_loop],
-    ["While Loop", tt1.while_loop],
+    ["While Loop", tt1.while_loopt],
     ["Recursive Loop", str(tt1.recursive_loop(0))],
     ["All Loops", tt1.tester],
 ]
