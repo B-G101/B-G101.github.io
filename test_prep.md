@@ -25,7 +25,7 @@
 4. Try to describe Symmetric and Asymmetric encryption.
      - Symmetric encryption uses the same key to encrypt and decrypt data making it very easy to use. Asymmetric encryption uses a public key to encrypt data and a private key to decrypt information.
 5. Provide and example of encryption we used in deployment.
-     -
+     - An example of encryption that is used in deployment is 
 6. Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.
      - One phising scheme that I've seen is that when you illegally watch movies on 123 movies, a lot of the ads tell you to click on a link to watch the movie. The is a scam because it will lead you to another page to potentially get hacked or gt your information stolen. Some other examples of phising techniques could be getting emails telling you to click a link. Or getting DMs telling you to click a link. 
 
