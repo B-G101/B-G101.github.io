@@ -1,7 +1,35 @@
 {% include navigation.html %}
 ## Table of Contents
 1. [Week 0](#week-0-tpt-51-52-and-tt0-)
-2. [Week 1](#week-1-tpt-53-54-and-tt1-)<br><br>
+2. [Week 1](#week-1-tpt-53-54-and-tt1-)
+3. [Week 2](#week-2-tpt-55-56-and-tt2-)<br><br>
+
+### Week 2: TPT 5.5-5.6 and TT2 🌼
+***
+#### 5.5 Legal and Ethical Concerns
+1. When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages.
+     - Creative Commons license allows everything to be in the open and shared. This makes it harder to patent if you are a business. This license gives the author the freedom to share their work with the understanding that it will be accesible and sharable to all people. This license is more open and allows works to be distributed and modified. 
+     - The MIT license allows using code freely and making and distributing closed source versions. The license is both business friendly and open source friendly. 
+     - Patents and open source battle each other because it is harder to get a patent with an open source license.
+     - It has to be a balance because business without income will not survive and using creative commons and open source content is free
+2. Make a license for your personal and Team project. Document license you picked and why.
+     - Our group decided on the Creative Commons license because we want our website to be accesible to other teams who want to create a similar website for their sports team. We also feel like it made the most sense because we aren't monetizing anything on our website and we intend for the website to be more sharing based. 
+
+#### 5.6 Safe Computing
+1. Describe PII you have seen on project in CompSci Principles.
+     - Some PII that has been in CompSci Principles has been our emails and names. When we made the database we had to be in our emails and name and phone number. Some informatoin that might be linked is our birthday or family depending on the other information we put on our about me pages.
+2. What are your feelings about PII and your exposure?
+     - I think that since everything is so digital now that it is going to be way harder to keep general personal information secure like your address or email. Though I do have social media, I don't think I'm thaat over exposed because I don't really post much and don't use the location feature.
+3. Describe good and bad passwords? What is another step that is used to assist in authentication.
+     - A good password has a mixture of numbers and characters that is hard for the average person or algorithm to guess. A bad password has easy to identify words or number combinations in it like "password" or "123" or "ABC". Another step used to assist in authentication would be having a code sent to another device or email to ensure that you can log into your account. 
+4. Try to describe Symmetric and Asymmetric encryption.
+     - Symmetric encryption uses the same key to encrypt and decrypt data making it very easy to use. Asymmetric encryption uses a public key to encrypt data and a private key to decrypt information.
+5. Provide and example of encryption we used in deployment.
+     -
+6. Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.
+     - One phising scheme that I've seen is that when you illegally watch movies on 123 movies, a lot of the ads tell you to click on a link to watch the movie. The is a scam because it will lead you to another page to potentially get hacked or gt your information stolen. Some other examples of phising techniques could be getting emails telling you to click a link. Or getting DMs telling you to click a link. 
+
+
 ### Week 1: TPT 5.3-5.4 and TT1 😧
 ***
 #### 5.3 Computing Bias
