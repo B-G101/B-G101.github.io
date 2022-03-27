@@ -25,6 +25,5 @@
   
   
   
-  ### About Me 😴
-  
-  My name is Bria and I am a junior in CSP! Some projects that I've worked on this year include a website about music, a new student service website, and more recently website for Del Norte's lacrosse team. My scrum group's idea for this trimester is making an website to store all the information about lacrosse team. Prior to CSP, I had barely any coding experience other than a club I was in, so it's super cool that I was able to learn this much.
+### About Me 😴
+My name is Bria and I am a junior in CSP! Some projects that I've worked on this year include a website about music, a new student service website, and more recently website for Del Norte's lacrosse team. My scrum group's idea for this trimester is making an website to store all the information about lacrosse team. Prior to CSP, I had barely any coding experience other than a club I was in, so it's super cool that I was able to learn this much.
