@@ -9,6 +9,178 @@
 
 ### Code Snippets
 
+Fibonacci with Classes
+```python
+class Fibonacci:
+    def __init__(self):
+        self.fiboSeq = [0, 1]
+      
+    def __call__(self, n):
+        if n < len(self.fiboSeq):
+            return self.fiboSeq[n]
+        else:
+            # Compute the requested Fibonacci number
+            fib_number = self(n - 1) + self(n - 2) # two recursive calls to self (__call__(self, n))
+            self.fiboSeq.append(fib_number) # builds list, with most nested of the calculations 1st... may hurt your head
+        return self.fiboSeq[n]
+      
+fibo_of = Fibonacci() # object instantiation and run __init__ method
+      
+
+def tester():
+    # Make a fibonacci object
+    while True:
+        fibo_of = Fibonacci()
+        n = input("Enter the number of terms: ")
+        try:
+            n = int(n)
+            # Validate the value of n
+            #The isinstance() function in Python returns true or false if a variable matches a
+            # specified data type. isinstance(variable_to_check, data_type)
+            if not (isinstance(n, int) and n >= 0):
+                raise ValueError
+            print("{0}th term  of Fibonacci sequence is: ".format(n))
+            print(fibo_of(n-1)) # print the nth term
+            print("Fibonacci sequence of {0} terms is: ".format(n))
+            print([fibo_of(i) for i in range(0,n)])
+            break
+        except:
+            print(f'Positive integer number expected, got "{n}" Try again.')
+
+if __name__ == "__main__":
+    tester()
+```
+Factorial
+```python
+class Factorial:
+    def __init__(self):
+        self.factSeq = [1, 1]
+      
+    def __call__(self, n):
+        if n < len(self.factSeq):
+            return self.factSeq[n]
+        else:
+            # Compute the requested Factorial number
+            fact_number = n * self(n - 1) # two recursive calls to self (__call__(self, n))
+            self.factSeq.append(fact_number) # builds list, with most nested of the calculations 1st... may hurt your head
+        return self.factSeq[n]
+      
+facto_of = Factorial() # object instantiation and run __init__ method
+ 
+
+def tester():
+    # Make a factonacci object
+    while True:
+        facto_of = Factorial()
+        n = input("Enter the number that you want the factorial of: ")
+        try:
+            n = int(n)
+            # Validate the value of n
+            #The isinstance() function in Python returns true or false if a variable matches a
+            # specified data type. isinstance(variable_to_check, data_type)
+            if not (isinstance(n, int) and n >= 0):
+                raise ValueError
+            print("{0}! is: ".format(n))
+            print(facto_of(n)) # print the nth term
+            print("Factorial sequence of 0 to the number {0} is: ".format(n))
+            print([facto_of(i) for i in range(0,n+1)])
+            break
+        except:
+            print(f'Positive integer number expected, got "{n}" Try again.')
+
+if __name__ == "__main__":
+    tester()
+```
+Factors (Math Function)
+```python
+
+def factors(n):
+    factors = []
+    x = range(1, n + 1)
+    for i in x:
+        if (n % i == 0):
+            factors.append(i)
+            print(i, end=' ')
+          
+    print(factors)
+
+
+class Factors:
+    def __init__(self):
+        self.factors = []
+      
+    def __call__(self, n):
+      for i in range(1, n + 1):
+        if n % i == 0:
+            self.factors.append(i)
+      return self.factors
+      
+factors_of = Factors() # object instantiation and run __init__ method
+
+
+
+def tester():
+  factors(89)
+  factors(66)
+  try:
+    n = int(input("Pick a Number to Get the Factors of "))
+    if not (isinstance(n, int) and n >= 0):
+      raise ValueError
+    print("Factors of {0} is: ".format(n))
+    print(factors_of(n)) # print the nth term
+  except:
+    print(f'Positive integer number expected, got "{n}" Try again.')
+
+if __name__ == "__main__":
+    tester()
+```
+Palindrome
+```python
+class Palindrome:
+    def __call__(self, j):
+        # Remove special characters from a string
+        n = ''.join(filter(str.isalnum, j))
+        n = n.lower()
+        revn = n[::-1]
+        if revn == n:
+            self.result = (j + " is a palidrome.")
+        else:
+            self.result = (j + " is not a palidrome.")
+
+        return self.result
+
+palidrome_of = Palindrome()  # object instantiation and run __init__ method
+
+
+
+def palidrone(j):
+    # Remove special characters from a string and changes all letters to lowercase
+    n = ''.join(filter(str.isalnum, j))
+    n = n.lower()
+    # reverses the string
+    revn = n[::-1]
+    # checks if the string is the same as the reversed string
+    if revn == n:
+        print(j + " is a palidrome.")
+    else:
+        print(j + " is not a palidrome.")
+
+
+def tester():
+    palidrone("jerry")
+    palidrone("ava")
+    palidrone("racecar")
+    palidrone("A man, a plan, a canal -- Panama!")
+    print("Pick a number to check whether or not it is a Palidrome")
+    j = input()
+    print(palidrome_of(j))  # print the nth term
+
+
+if __name__ == "__main__":
+    tester()
+
+```
+
 InfoDB List
 ```python
 InfoDb = []
