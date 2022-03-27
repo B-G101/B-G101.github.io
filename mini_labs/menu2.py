@@ -2,8 +2,12 @@
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
 
-import menu
-import tt1
+import week0.menu
+import week1.tt1
+import week2.factorial
+import week2.factors
+import week2.fibonacci
+import week2.palidrone
 
 
 # Main list of [Prompts, Actions]
@@ -11,29 +15,28 @@ import tt1
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
 main_menu = [
-    ["Animation", menu.ship],
-    ["Christmas Tree", menu.christmasTree],
-    ["Fibonacci", tt1.fibonacci],
+    ["Animation", week0.menu.ship],
+    ["Christmas Tree", week0.menu.christmasTree],
 ]
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
-sub_menu = [
-    ["Swap", menu.swap],
-    ["Matrices", menu.matrice],
-]
 
-patterns_sub_menu = [
-    ["Patterns", None],
-    ["PreFuncy", None],
-    ["Funcy", None],
+
+maths_sub_menu = [
+    ["Fibonacci", week2.fibonacci.tester],
+    ["Factorial", week2.factorial.tester],
+    ["Palidrome", week2.palidrone.tester],
+    ["Factors", week2.factors.tester],
+    ["Swap", week0.menu.swap],
+    ["Matrices", week0.menu.matrice],
 ]
 
 loops_sub_menu = [
-    ["For Loop", tt1.for_loop],
-    ["While Loop", tt1.while_loopt],
-    ["Recursive Loop", tt1.recursive_loopt],
-    ["All Loops", tt1.tester],
+    ["For Loop", week1.tt1.for_loop],
+    ["While Loop", week1.tt1.while_loopt],
+    ["Recursive Loop", week1.tt1.recursive_loopt],
+    ["All Loops", week1.tt1.tester],
 ]
 
 # Menu banner is typically defined by menu owner
@@ -42,12 +45,12 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 
 
       
-# def patterns_submenuc
-# using patterns_sub_menu list:
-# patterns_submenuc works similarly to menuc
-def patterns_submenuc():
+# def maths_submenuc
+# using maths_sub_menu list:
+# maths_submenuc works similarly to menuc
+def maths_submenuc():
     title = "Class Submenu" + banner
-    m = questy.Menu(title, patterns_sub_menu)
+    m = questy.Menu(title, maths_sub_menu)
     m.menu()
 
 
@@ -64,20 +67,16 @@ def menu():
     title = "Function Menu" + banner
     print(title)
     menu_list = main_menu.copy()
-    menu_list.append(["Tri One", submenu])
-    menu_list.append(["Patterns", patterns_submenu])
+    menu_list.append(["Math", maths_submenu])
     menu_list.append(["Loops", loops_submenu])
     buildMenu(title, menu_list)
 
 # def submenu
 # using sub menu list above:
 # sub_menu works similarly to menu()
-def submenu():
+def maths_submenu():
     title = "Function Submenu" + banner
-    buildMenu(title, sub_menu)
-def patterns_submenu():
-    title = "Function Submenu" + banner
-    buildMenu(title, patterns_sub_menu)
+    buildMenu(title, maths_sub_menu)
 def loops_submenu():
     title = "Function Submenu" + banner
     buildMenu(title, loops_sub_menu)  

@@ -12,7 +12,7 @@ class Factorial:
         return self.factSeq[n]
       
 facto_of = Factorial() # object instantiation and run __init__ method
-print(facto_of(5)) # object running __call__ method      
+ 
 
 def tester():
     # Make a factonacci object

@@ -21,7 +21,6 @@ class Factors:
       return self.factors
       
 factors_of = Factors() # object instantiation and run __init__ method
-print(factors_of(0)) # object running __call__ method
 
 
 
@@ -29,7 +28,7 @@ def tester():
   factors(89)
   factors(66)
   try:
-    n = int(input("Pick a Number to Get the Factors of"))
+    n = int(input("Pick a Number to Get the Factors of "))
     if not (isinstance(n, int) and n >= 0):
       raise ValueError
     print("Factors of {0} is: ".format(n))

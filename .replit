@@ -1,2 +1,2 @@
 language = "python3"
-run = "python mini_labs/week2/palidrone.py"
+run = "python mini_labs/menu2.py"

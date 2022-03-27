@@ -12,7 +12,7 @@ class Fibonacci:
         return self.fiboSeq[n]
       
 fibo_of = Fibonacci() # object instantiation and run __init__ method
-print(fibo_of(5)) # object running __call__ method      
+      
 
 def tester():
     # Make a fibonacci object
