@@ -1,29 +1,17 @@
+class Palindrome:
+    def __init__(self):
+        return None 
+      
+    def __call__(self, j):
+        # Remove special characters from a string
+        n = ''.join(filter(str.isalnum, j))
+        n = n.lower()
+        revn = n[::-1]
+        if revn == n:
+            print(j + " is a palidrome.")
+        else:
+            print(j + " is not a palidrome.")
 
-InfoDb = []
-# List with dictionary records placed in a list
-InfoDb.append({
-    "FirstName": "Bria",
-    "LastName": "Gilliam",
-    "DOB": "September 27",
-    "Residence": "Los Angelus",
-    "Email": "briagee101@gmail.com",
-    "FavoriteColors": ["Blue", "Sage Green", "Lilac"]
-})
 
-InfoDb.append({
-    "FirstName": "Allison",
-    "LastName": "Huang",
-    "DOB": "July 27",
-    "Residence": "Irvine",
-    "Email": "allisonhuang@gmail.com",
-    "FavoriteColors": ["A", "B", "C"]
-})
-
-InfoDb.append({
-    "FirstName": "Paige",
-    "LastName": "McCartin",
-    "DOB": "April 30",
-    "Residence": "San Diego",
-    "Email": "paigey@gmail.com",
-    "FavoriteColor": ["A", "B", "C"]
-})
+palidrome_of = Palindrome()  # object instantiation and run __init__ method
+print(palidrome_of("hgj"))  # object running __call__ method
