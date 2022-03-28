@@ -16,13 +16,11 @@
   <td>Week 0: Plans, Team, Jobs</td>
   <td> <a href="https://github.com/christinlee367/womenInSTEMandDavid/issues/5">Review Ticket 1</a></td>
   </tr>
-  
   <tr>
     <td>Week 1: Lists and Loops</td>
     <td> <a href="https://github.com/B-G101/B-G101.github.io/issues/1">Review Ticket 2</a></td>
   </tr>
-  
-    <tr>
+   <tr>
     <td>Week 2: Classy Functions</td>
     <td> <a href="https://github.com/B-G101/B-G101.github.io/issues/2">Review Ticket 3</a></td>
   </tr>
