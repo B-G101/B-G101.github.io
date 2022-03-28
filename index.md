@@ -27,7 +27,7 @@
     <td> <a href="https://github.com/B-G101/B-G101.github.io/issues/2">Review Ticket 3</a></td>
   </tr>
  
-  </table>
+</table>
   
   
   
