@@ -232,6 +232,15 @@ InfoDb.append({
     "FavoriteColors": ["Brown", "Black", "White", "Cyan", "Magenta"]
 })
 
+InfoDb.append({
+    "FirstName": "Kevin",
+    "LastName": "Chen",
+    "DOB": "Feburary 25",
+    "Birth Place": "San Diego",
+    "Email": "kc4922@gmail.com",
+    "FavoriteColors": ["Blue", "purple", "red", "sky blue", "green"]
+})
+
 ```
 
 For, While, and Recursive Loop
