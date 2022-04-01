@@ -24,6 +24,10 @@
     <td>Week 2: Classy Functions</td>
     <td> <a href="https://github.com/B-G101/B-G101.github.io/issues/2">Review Ticket 3</a></td>
   </tr>
+  <tr>
+    <td>Week 3: Algorithmic Final</td>
+    <td> <a href="https://github.com/B-G101/B-G101.github.io/issues/4">Review Ticket 4</a></td>
+  </tr>
  
 </table>
   
