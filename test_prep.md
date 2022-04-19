@@ -2,7 +2,31 @@
 ## Table of Contents
 1. [Week 0](#week-0-tpt-51-52-and-tt0-)
 2. [Week 1](#week-1-tpt-53-54-and-tt1-)
-3. [Week 2](#week-2-tpt-55-56-and-tt2-)<br><br>
+3. [Week 2](#week-2-tpt-55-56-and-tt2-)
+4. [Study Plan](#study-plan)<br><br>
+
+### Study Plan 📖
+#### Steps for prepare for the exam
+- Ask questions during class to review what I got wrong
+- Review create task through cross over to get better at algorithms and add the gameover screen and timer to the code
+- 
+#### Schedule
+<table>
+  <tr>
+  <th>Monday</th>
+  <th>Tuesday</th>
+  <th>Wednesday</th>
+  <th>Thursday</th>    
+  <th>Friday</th>       
+  </tr>
+  <tr>
+       <td>Create study plan to be prepared for the exam</td>
+       <td>Finals-Quiz1 42/50 and corrections. Review the areas that I need to improve in and watch the Big Idea videos that correspond with the topics that I am missing</td>
+       <td>Choose a topic to do a deep focus/review on based on what I missed most on Tues (Weds)</td>
+       <td>Finals-Quiz2 score/50 and reflections</td>
+       <td>Take test then brush up on the ones that you missed, do corrections for these. Then choose a second topic to do a deep focus/review on based on what you missed the most on Weds</td>
+</table>
+
 
 ### Week 2: TPT 5.5-5.6 and TT2 🌼
 ***
