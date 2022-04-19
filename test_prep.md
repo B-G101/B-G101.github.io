@@ -6,11 +6,20 @@
 4. [Study Plan](#study-plan)<br><br>
 
 ### Study Plan 📖
+
+
+
+
 #### Steps for prepare for the exam
 - Ask questions during class to review what I got wrong
 - Review create task through cross over to get better at algorithms and add the gameover screen and timer to the code
-- 
+
+
+
+
 #### Schedule
+
+
 <table>
   <tr>
   <th>Monday</th>
