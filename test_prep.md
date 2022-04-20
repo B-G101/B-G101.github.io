@@ -20,24 +20,10 @@
 #### Schedule
 
 
-<table>
-  <tr>
-  <th>Monday</th>
-  <th>Tuesday</th>
-  <th>Wednesday</th>
-  <th>Thursday</th>    
-  <th>Friday</th>       
-  </tr>
-  <tr>
-       <td>Create study plan to be prepared for the exam</td>
-       <td>Finals-Quiz1 42/50 and corrections. Review the areas that I need to improve in and watch the Big Idea videos that correspond with the topics that I am missing</td>
-       <td>Choose a topic to do a deep focus/review on based on what I missed most on Tues (Weds)</td>
-       <td>Finals-Quiz2 score/50 and reflections</td>
-       <td>Take test then brush up on the ones that you missed, do corrections for these. Then choose a second topic to do a deep focus/review on based on what you missed the most on Weds</td>
-</table>
 
-
-
+| Monday | Tuesday | Wednesday | Thursday | Friday |       
+|-------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| Create study plan to be prepared for the exam | Finals-Quiz1 42/50 and corrections. Review the areas that I need to improve in and watch the Big Idea videos that correspond with the topics that I am missing | Choose a topic to do a deep focus/review on based on what I missed most on Tues (Weds) | Finals-Quiz2 score/50 and reflections | Take test then brush up on the ones that you missed, do corrections for these. Then choose a second topic to do a deep focus/review on based on what you missed the most on Weds | 
 
 
 ### Week 2: TPT 5.5-5.6 and TT2 🌼
