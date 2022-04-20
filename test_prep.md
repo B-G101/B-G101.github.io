@@ -3,12 +3,25 @@
 1. [Week 0](#week-0-tpt-51-52-and-tt0-)
 2. [Week 1](#week-1-tpt-53-54-and-tt1-)
 3. [Week 2](#week-2-tpt-55-56-and-tt2-)
-4. [Study Plan](#study-plan)<br><br>
+4. [Study Plan](#study-plan-)<br><br>
+
+
+
+### Finals-Quiz1 42/50 and Corrections
+![image.png](https://i.postimg.cc/nzx2vhrn/image.png)
+| Question Number | Topic | My Choice | Correct Choice | Explanation |
+|--------------------------|------------------------------------------------------|---------------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Q1 | Ability to process large data sets | A | B 
+| Q13 | Data | B | C
+| Q23 | User Privacy | D | A |
+| Q24 | Computing Systems | B | A |
+| Q29 | Errors in Algorithms | A | C |
+| Q30 | Legal and Ethical Factors of Computer | B | A |
+| Q36 | Data | C | A |
+| Q39 | Parallel Computing | D | C |
+
 
 ### Study Plan 📖
-
-
-
 
 #### Steps for prepare for the exam
 - Ask questions during class to review what I got wrong
