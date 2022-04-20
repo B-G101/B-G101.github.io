@@ -9,6 +9,8 @@
 
 ### Finals-Quiz1 42/50 and Corrections
 ![image.png](https://i.postimg.cc/nzx2vhrn/image.png)
+
+
 | Question Number | Topic | My Choice | Correct Choice | Explanation |
 |--------------------------|------------------------------------------------------|---------------------|----------------|-----------------------|
 | Q1 | Ability to process large data sets | A | B | The amount of time that the program takes to run depends on the size that of the data inputted. A larger set of data will take more time to process. The correct answer is B because the amount of lines of code that a program has will have little impact on the ability to run larger data sets. |
