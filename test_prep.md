@@ -5,6 +5,19 @@
 3. [Week 2](#week-2-tpt-55-56-and-tt2-)
 4. [Study Plan](#study-plan-)<br><br>
 
+### Finals-Quiz2 44/50 and Corrections
+![image.png](https://i.postimg.cc/JhWCMH0f/image.png)
+
+
+| Question Number | Topic | My Choice | Correct Choice | Explanation |
+|--------------------------|------------------------------------------------------|---------------------|----------------|-----------------------|
+| Q8 | Advantages of open source software | D | C | The incorrect anser is D because open source software can be continually updated without the original developers. Open-source software does not guarantee that the original developer of open-source software will provide support for the user. |
+| Q14 | Average amount of data per user | B | A | I misintepreted the data in the graph and miscalculated the amount data per user. |
+| Q19 | Behavior of mystery procedure with if statement | D | C | Option D is incorrect I thought that this was a boolean procedure, so I thought that y would display false. This isn't correct. |
+| Q22 | Benefit of IPv6 | C | B | IPv6 allows for a greater number of IP addresses than IPv4 does so this means that more devices can be connected. |
+| Q27 | Benefits of incremental and iterative development | C | D | Option C is inccorect becuase the use of low level abstractions is unrelated to the development process used. The correct option is D because it can help programmers identify new errors that are introduced. |
+| Q42 | Cloud computing and the Internet | A + C | B + C | Option A is incorrect because redundant routing provides faullt tolerance which allows a cloud storage sit to continue to operate. The correct option is B because cloud computing fosters new ways to community and collaborate. |
+
 
 
 ### Finals-Quiz1 42/50 and Corrections
@@ -14,13 +27,13 @@
 | Question Number | Topic | My Choice | Correct Choice | Explanation |
 |--------------------------|------------------------------------------------------|---------------------|----------------|-----------------------|
 | Q1 | Ability to process large data sets | A | B | The amount of time that the program takes to run depends on the size that of the data inputted. A larger set of data will take more time to process. The correct answer is B because the amount of lines of code that a program has will have little impact on the ability to run larger data sets. I misunderstood this topic and can learn more about it by reviewing the big idea videos. |
-| Q13 | Data | B | C | 
-| Q23 | User Privacy | D | A |
-| Q24 | Computing Systems | B | A |
-| Q29 | Errors in Algorithms | A | C |
-| Q30 | Legal and Ethical Factors of Computer | B | A |
-| Q36 | Data | C | A |
-| Q39 | Parallel Computing | D | C |
+| Q13 | Data | B | C | I got this question wrong because I didn't think about how animals with trackers would allow the user to see if they travel in groups or not. The correct answer is C because the geolocation data does not track the weather. I can review this topic by being more careful and recognizing which data is given and not given |
+| Q23 | User Privacy | D | A | I got this question wrong because I assumed encryption would mean tha tthe data is more secure. I didn't read the part of the question that mentioned that the key is public. The correct option is cookies because they can be used to see what websites the user visits and to track the user and collect their information. |
+| Q24 | Computing Systems | B | A | I did not understand how packets were transmitted over the internet. I thought that they contain encrypterd version of the data to be transmitted but in reality each packet contains data to be transmitted. I can get better at this topic by reviewing Big Idea 4 and 5. |
+| Q29 | Errors in Algorithms | A | C | I thought that the question was asking if the program works for all test cases. I tested more numbers in my head but I didn't realize that the question was asking about the specific test case. The corrent answer is C is because one test case is not enough to know if the entire program works for everything. |
+| Q30 | Legal and Ethical Factors of Computer | B | A | I did not know what digital certificates are and what they are used for. Digital certificates are used to verify the ownership of encryped keys used in secured communication. |
+| Q36 | Data | C | A | I picked option C because the data does not store information about the age of the people wearing the shoes. The correct answer is A because the database stores information on the item id and the quantity available.
+| Q39 | Parallel Computing | D | C | I forgot that parallel computing only takes as much time shortest time period. I can review this topic by going over Big Idea 4 and 5. |
 
 
 ### Study Plan 📖
