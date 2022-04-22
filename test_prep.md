@@ -6,6 +6,7 @@
 4. [Study Plan](#study-plan-)<br><br>
 
 ### Finals-Quiz2 44/50 and Corrections
+
 ![image.png](https://i.postimg.cc/JhWCMH0f/image.png)
 
 
