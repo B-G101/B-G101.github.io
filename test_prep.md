@@ -3,7 +3,9 @@
 1. [Week 0](#week-0-tpt-51-52-and-tt0-)
 2. [Week 1](#week-1-tpt-53-54-and-tt1-)
 3. [Week 2](#week-2-tpt-55-56-and-tt2-)
-4. [Study Plan](#study-plan-)<br><br>
+4. [Study Plan](#study-plan-)
+5. [Finals-Quiz 1 Score and Corrections](finals-quiz1-4250-and-corrections)
+6. [Finals-Quiz 2 Score and Corrections](#finals-quiz2-4450-and-corrections)<br><br>
 
 ### Finals-Quiz2 44/50 and Corrections
 
