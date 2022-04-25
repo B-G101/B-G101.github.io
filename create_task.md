@@ -48,7 +48,7 @@ My idea is to create a map guessing game to help the new students at Del Norte l
 ### Video Runtime
 Link to the runtime: <br>
 
-https://user-images.githubusercontent.com/89234851/155906449-7b570eee-b7a2-473e-adaa-64c8cdb532ba.mp4
+[https://user-images.githubusercontent.com/89234851/155906449-7b570eee-b7a2-473e-adaa-64c8cdb532ba.mp4](https://user-images.githubusercontent.com/89234851/155906449-7b570eee-b7a2-473e-adaa-64c8cdb532ba.mp4)
 
 
 
