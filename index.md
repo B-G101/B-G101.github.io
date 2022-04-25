@@ -28,6 +28,13 @@
     <td>Week 3: Algorithmic Final</td>
     <td> <a href="https://github.com/B-G101/B-G101.github.io/issues/4">Review Ticket 4</a></td>
   </tr>
+    <tr>
+    <td>Week 4: Accounts and Logins</td>
+    <td> <a href="https://github.com/B-G101/B-G101.github.io/issues/5">Review Ticket 5</a></td>
+  </tr>
+    <tr>
+    <td>Week 5: Proctored MCQ Week1 : Quiz1, Quiz2 Scores</td>
+    <td> <a href="https://github.com/B-G101/B-G101.github.io/issues/6">Study Plan</a> <br> <a href="https://github.com/B-G101/B-G101.github.io/issues/7">Review Ticket 6</a></td>
  
 </table>
   
