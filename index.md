@@ -39,6 +39,10 @@
     <tr>
     <td>Week 5: Proctored MCQ Week1 : Quiz1, Quiz2 Scores</td>
     <td> <a href="https://github.com/B-G101/B-G101.github.io/issues/6">Study Plan</a> <br> <a href="https://github.com/B-G101/B-G101.github.io/issues/7">Review Ticket 6</a></td>
+      <tr>
+      <td>Week 6: Proctored MCQ Week2 : Quiz3 Scores</td>
+        <td> <a href="https://github.com/B-G101/B-G101.github.io/issues/8">Review Ticket 7</a></td></tr>
+      
  
       
 </table>
