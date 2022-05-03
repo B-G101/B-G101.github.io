@@ -5,7 +5,24 @@
 3. [Week 2](#week-2-tpt-55-56-and-tt2-)
 4. [Study Plan](#study-plan-)
 5. [Finals-Quiz 1 Score and Corrections](#finals-quiz1-4250-and-corrections)
-6. [Finals-Quiz 2 Score and Corrections](#finals-quiz2-4450-and-corrections)<br><br>
+6. [Finals-Quiz 2 Score and Corrections](#finals-quiz2-4450-and-corrections)
+7. [Finals-Quiz 3 Score and Corrections](#finals-quiz3-4450-and-corrections)<br><br>
+
+
+### Finals-Quiz3 44/50 and Corrections
+
+![image](https://user-images.githubusercontent.com/89234851/166484566-fd045c3d-a618-4ad1-8fa4-582e03a46fcf.png)
+
+
+| Question Number | Topic | My Choice | Correct Choice | Explanation |
+|--------------------------|------------------------------------------------------|---------------------|----------------|-----------------------|
+| Q2 | Ability of computer to solve a problem | C | D | The correct answer is D because there are some problems that would not be able to be solved algorithmically. Some options might take a long time to solve but there are some that just cannot be solved. This is called an undecidable problem which might be solveable by an algorithm but not in all instances of the problem. To learn more about this topic I should review Big Idea 3. |
+| Q19 | What can be determined by course grade | D | A | I misread this question and thought it was asking what could be determined from the data in the table. |
+| Q23 | Social media hypotheses | A | D | Option A is incorrect because the data table shows the average number of messages sent increased over the years. Option D is the stronger answer because the average amount of characters decreases dramatically. I can learn more about this topic by reviewing Big Idea 2. |
+| Q30 | Relationship between Internet and World Wide Web | B | D | The Internet is a network of interconnected networks, but the World Wide Web is an information system that is accessed via the Internet. The Internet is the global system of interconnected computer networks that uses protocols to connect devices worldwide. The World Wide Web is an information system (of pages, programs, and files) that is accessible over the Internet. |
+| Q34 | Algorithm that would most benefit from a heuristic | C | B | This algorithm has linear efficiency, so it runs in a reasonable amount of time. Therefore, a heuristic is not appropriate. |
+| Q41 |  Encrypting and decrypting using public key cryptography | A | D | This option is incorrect. The sender’s public key cannot be used to decrypt the message. |
+
 
 ### Finals-Quiz2 44/50 and Corrections
 
