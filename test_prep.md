@@ -8,6 +8,19 @@
 6. [Finals-Quiz 2 Score and Corrections](#finals-quiz2-4450-and-corrections)
 7. [Finals-Quiz 3 Score and Corrections](#finals-quiz3-4450-and-corrections)<br><br>
 
+### Finals-Quiz5 20/25 and Corrections
+
+![image](https://user-images.githubusercontent.com/89234851/167063263-a7ddf82c-aacc-4419-8861-094fa26ef8de.png)
+
+
+| Question Number | Topic | My Choice | Correct Choice | Explanation |
+|--------------------------|------------------------------------------------------|---------------------|----------------|-----------------------|
+| Q11 | Algorithms | C | D | I got this question wrong because I wasn't taking my time and thinking through the problem. I thought that if the quotient was equal to 1 then the returns and borrows would be equivalent. Though this is true, the answer choice I selected says that the quotient would be larger than 1. I can do better on these types of questions by making sure that I am debugging with each option |
+| Q16 | Algorithms | B | D | I got this question wrong because the option returns true if the person is 18 which is not what we want. Option D is correct because choice it returns true for everyone less than 18 and true for everyone not below 16. I can do better on these types of questions by making sure that I am reading the inequalities careful and understanding the parameters of the conditionals. |
+| Q23 | Computer Network | C | B | I got this question wrong because I did not recognize that there is not a connection between computers A and D. I can improve on these types of questions by making sure I am looking closely at the diagrams presented. |
+| Q24 | Algorithm | C | D | Again this is another issue of me not testing the algorithm with debugging and going through each step of the process. Option C just returns true when only looking at val 1 which is not the same as the given algorithm. |
+| Q25 | Algorithm | B | D | Once again another algorithm question that I could have gotten right if I would have debugged with more care. |
+
 
 ### Finals-Quiz3 44/50 and Corrections
 
